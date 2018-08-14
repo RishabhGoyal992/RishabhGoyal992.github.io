@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
 /*
 Template Name: Multi
-Version: 1.0
+Version: 1.0s
 Author: ShapeBootstrap
 Author URL: http://shapebootstrap.net
 */
@@ -22,9 +22,32 @@ body {
   padding-right: 30px;
 }
 
+div.dvm_invert{
+ 
+   max-width: 100%;
+    height: auto;
+}
 
+.dvm_invert{z-index: -100;}
+@media only screen and (max-width: 1308px) {
+.mysnap {
+    display: none;
+  }
+ 
+}
 
-
+/*@media only screen and (min-width: 1308px) {
+.dvm_invert {
+   visibility: hidden;
+  }
+}
+@media only screen and (max-width: 1308px) {
+.dvm_invert {
+    visibility: visible;
+  }
+ 
+}
+*/
 
 .alum{
   
