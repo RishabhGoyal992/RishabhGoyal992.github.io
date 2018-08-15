@@ -21,14 +21,21 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
-
-div.dvm_invert{
+@media only screen and (max-width: 500px) {
+.lol {
+    display: none;
+  }
+ 
+}
+div.dvminvert{
  
    max-width: 100%;
     height: auto;
 }
 
-.dvm_invert{z-index: -100;}
+
+
+
 @media only screen and (max-width: 1308px) {
 .mysnap {
     display: none;
